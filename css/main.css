@@ -19,6 +19,10 @@ body {
     border-bottom: 1px solid gray;
 }
 
+#header a:hover {
+    border-bottom: 1px solid gray;
+}
+
 #main-container {
     background: url("../images/main-background.png");
     padding-bottom: 50px;
@@ -45,6 +49,11 @@ h1 {
 #center-image img {
     padding: 10px;
     border: 1px solid gray;
+    transition: all 0.5s;
+}
+
+#center-image img:hover {
+    transform: scale(1.05);
 }
 
 #fast {
